@@ -1,22 +1,92 @@
+.container {
+    max-width: 1200px; /* ou 1000px ou ce que tu veux */
+    margin: 0 auto;    /* centre horizontalement */
+    padding: 0 4rem;   /* marge interne gauche/droite */
+}
+.nom {
+    color:#10b981;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 5px;
+    font-size: 50px;
+}
+
+.hero{
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: rgba(57, 56, 56, 0.356);
+    width: 100%;
+    margin-top: 40px;
+}
+
+.hero1{
+    font-size: 40px;
+    height: 40%;
+    margin: 0;
+    padding: 15px;
+}
+
+.hero2{
+    font-size: 20px;
+    color: white;
+    opacity: 70%;
+    padding-left: 15px;
+}
+
+.btn {
+    width: 18%;
+    height: 25%;
+    margin-left: 15px;
+    background-color:black;
+    color: #10b981c1;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #10b981c1;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 255, 128, 0.4); /* glow vert clair */
+}
+
+.btn:hover {
+  background-color: #52dfb3;
+  color: black;
+  box-shadow: 0 0 20px rgba(85, 218, 152, 0.762); /* glow vert clair */
+}
+
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 4rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
 }
 
-.title {
-  line-height: 1.15;
-  font-size: 4rem;
+.propos{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 5px;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.projets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
 
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
+
+.titre {
+    color: #10b981;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 40px;
 }
