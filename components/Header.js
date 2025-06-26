@@ -1,6 +1,30 @@
 import styles from "../styles/Header.module.css";
 
 function Header() {
+  const handleScrollToProjects = () => {
+    const projectsSection = document.getElementById("projects");
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleScrollToHome = () => {
+    const homeSection = document.getElementById("home");
+    if (homeSection) {
+      homeSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleScrollToAbout = () => {
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleScrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
       <div className={styles.nav}>
         <div className={styles.divh1}>
@@ -8,16 +32,16 @@ function Header() {
         </div>
 
         <div className={styles.liens}>
-          <a href="#home" className={styles.a}>
+          <a onClick={handleScrollToHome} className={styles.a}>
             Accueil
           </a>
-          <a href="#about" className={styles.a}>
+          <a onClick={handleScrollToAbout} className={styles.a}>
             À propos
           </a>
-          <a href="#projects" className={styles.a}>
+          <a onClick={handleScrollToProjects} className={styles.a}>
             Projets
           </a>
-          <a href="#contact" className={styles.a}>
+          <a onClick={handleScrollToContact} className={styles.a}>
             Contact
           </a>
         </div>

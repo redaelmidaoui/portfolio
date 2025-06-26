@@ -27,15 +27,18 @@
   width: 0;
   background-color: #10b981; /* vert par exemple */
   transition: width 0.3s ease;
+  
 }
 
 .a:hover::after {
   width: 100%;
     transition: width 0.3s ease;
+    
 }
 
 .a:hover {
     color: #4bddac;
+    cursor: pointer;
 }
 
 
