@@ -8,7 +8,7 @@ function Projet(props) {
         {/* Exemple de carte projet */}
         <div className={styles.divImg}>
           <div className={styles.image}>
-            <a href="https://labonneniche-frontend.vercel.app/">
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
               <Image
                 src={props.image}
                 alt="exemple de projet"
@@ -23,7 +23,7 @@ function Projet(props) {
         </div>
 
         <div className={styles.description}>
-          <h3 className={styles.titre}>La bonne niche</h3>
+          <h3 className={styles.titre}>{props.title}</h3>
           <p className={styles.text}>
             {props.description}
           </p>

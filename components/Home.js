@@ -23,7 +23,7 @@ function Home() {
       description:
         "LaBonneNiche, c’est quoi ? C’est une plateforme dédiée à l’adoption responsable, mettant en relation adoptants et refuges(ou particuliers) en toute simplicité. Plus qu’un simple site d’annonces, c’est un espace de mise en relation et d’accompagnement, favorisant une adoption réussie et durable.",
       stack: "React.js, Next.js, Redux.js, Express.js, Node.js, MongoDB",
-      image: "/laboneniche.png",
+      image: "/labonneniche.png",
       githubFrontend: "https://github.com/redaelmidaoui/labonneniche-frontend",
       githubBackend: "https://github.com/redaelmidaoui/labonneniche-backend",
       link: "https://labonneniche-frontend.vercel.app/",

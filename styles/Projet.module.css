@@ -20,6 +20,7 @@
     width: 80%;
     box-shadow: 0 0 20px rgba(0, 255, 128, 0.4); /* glow vert clair */
     transition: box-shadow 0.3s ease, transform 0.2s ease; /* Animation fluide */
+    margin-bottom: 1%;
 }
 
 .divImg{
