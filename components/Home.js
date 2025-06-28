@@ -41,7 +41,7 @@ function Home() {
     {
       title: "MyMoviz",
       description:
-        "MyMoviz est un projet que j'ai réalisé dans le cadre de ma formation de développeur Full Stack. C'est une single page application regrouppant sur une les derniers films sortie en date ainsi que leurs informations. Toutes les informations sont fetchées depuis l'API de The Movie Database (TMDB). L'application permet également d'ajouter différents films en favoris et de les consulter dans une liste dédiée.",
+        "MyMoviz est un projet que j'ai réalisé dans le cadre de ma formation de développeur Full Stack. C'est une single page application regrouppant sur une page les derniers films sortie en date ainsi que leurs informations. Toutes les informations sont fetchées depuis l'API de The Movie Database (TMDB). L'application permet également d'ajouter différents films en favoris et de les consulter dans une liste dédiée.",
       stack: "React.js, Next.js, Express.js, Node.js",
       image: "/mymoviz.png",
       githubFrontend: "https://github.com/redaelmidaoui/mymoviz5-frontend",
