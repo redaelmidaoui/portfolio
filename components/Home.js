@@ -21,7 +21,7 @@ function Home() {
     {
       title: "La bonne niche",
       description:
-        "LaBonneNiche, c’est quoi ? C’est une plateforme dédiée à l’adoption responsable, mettant en relation adoptants et refuges(ou particuliers) en toute simplicité. Plus qu’un simple site d’annonces, c’est un espace de mise en relation et d’accompagnement, favorisant une adoption réussie et durable.",
+        "LaBonneNiche, c’est quoi ? C'est un projet personnel que j'ai réalisé dans le cadre de ma formation de développeur Full Stack. C'est un site d'annonces permettant l'adoptions d'animaux en toutes simplicité. L'application permet la possibilité de créer un compte, d'ajouter des annonces en favoris et de communiquer avec les autres utilisateurs via messagerie. ",
       stack: "React.js, Next.js, Redux.js, Express.js, Node.js, MongoDB",
       image: "/labonneniche.png",
       githubFrontend: "https://github.com/redaelmidaoui/labonneniche-frontend",
@@ -31,7 +31,7 @@ function Home() {
     {
       title: "Hackatweet",
       description:
-        "LaBonneNiche, c’est quoi ? C’est une plateforme dédiée à l’adoption responsable, mettant en relation adoptants et refuges(ou particuliers) en toute simplicité. Plus qu’un simple site d’annonces, c’est un espace de mise en relation et d’accompagnement, favorisant une adoption réussie et durable.",
+        "Hackatweet est un projet que j'ai réalisé dans le cadre d'un hackathon de 48h. C'est une application de type Twitter, permettant de partager des tweets et de les liker. L'application permet la possibilité de créer un compte, de suivre des utilisateurs, de communiquer avec les autres utilisateurs et d'accéder à leur profils",
       stack: "React.js, Next.js, Redux.js, Express.js, Node.js, MongoDB",
       image: "/hackatweet.png",
       githubFrontend: "https://github.com/redaelmidaoui/hackatweet-frontend",
@@ -41,8 +41,8 @@ function Home() {
     {
       title: "MyMoviz",
       description:
-        "LaBonneNiche, c’est quoi ? C’est une plateforme dédiée à l’adoption responsable, mettant en relation adoptants et refuges(ou particuliers) en toute simplicité. Plus qu’un simple site d’annonces, c’est un espace de mise en relation et d’accompagnement, favorisant une adoption réussie et durable.",
-      stack: "React.js, Next.js, Redux.js, Express.js, Node.js, MongoDB",
+        "MyMoviz est un projet que j'ai réalisé dans le cadre de ma formation de développeur Full Stack. C'est une single page application regrouppant sur une les derniers films sortie en date ainsi que leurs informations. Toutes les informations sont fetchées depuis l'API de The Movie Database (TMDB). L'application permet également d'ajouter différents films en favoris et de les consulter dans une liste dédiée.",
+      stack: "React.js, Next.js, Express.js, Node.js",
       image: "/mymoviz.png",
       githubFrontend: "https://github.com/redaelmidaoui/mymoviz5-frontend",
       githubBackend: "https://github.com/redaelmidaoui/mymoviz5-backend",

@@ -4,7 +4,6 @@ import Image from "next/image";
 function Projet(props) {
   return (
     <div className={styles.divCard}>
-      <div className={styles.projet}>
         {/* Exemple de carte projet */}
         <div className={styles.divImg}>
           <div className={styles.image}>
@@ -50,7 +49,7 @@ function Projet(props) {
         </div>
 
         {/* ... autres cartes */}
-      </div>
+      
     </div>
   );
 }
