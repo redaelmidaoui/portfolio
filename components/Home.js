@@ -82,7 +82,7 @@ function Home() {
             Salut, moi c’est <span className={styles.nom}>Réda El Midaoui</span>
           </h2>
           <p className={styles.hero2}>
-            Développeur Full Stack passionné
+            Développeur Full Stack React passionné
           </p>
           <button
             onClick={handleScrollToProjects}
